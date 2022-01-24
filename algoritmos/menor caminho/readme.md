@@ -5,7 +5,7 @@
 Encontrar o menor caminho de um vértice do grafo a todos os outros que são possíveis de serem alcançados a partir dele;
 
 ## Complexidade
-Considerando N o número de vértices e M o número de arestas do grafo, a complexidade sem otimizações é O(N² + M), entretanto, é possível amenizar o números de operações com o uso de algumas estruturas de dados como a <strong>Fibonnaci heap</strong>, sendo possível alcançar O(N log N + M log N);
+Considerando N o número de vértices e M o número de arestas do grafo, a complexidade sem otimizações é O(N² + M), entretanto, é possível amenizar o número de operações com o uso de algumas estruturas de dados como a <strong>Fibonnaci heap</strong>, sendo possível alcançar O(N log N + M log N);
 
 ## Algoritmo
  1. Crie um array d[N] que guarde todas as distâncias da raiz a N e inicialize como <strong>INFINITO</strong>;
