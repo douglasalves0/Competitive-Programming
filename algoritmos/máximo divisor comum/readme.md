@@ -1,5 +1,5 @@
 <h1 align="center">Algoritmo para encontrar o maior divisor comum (gcd) de dois números.</h1>
-<h4 align="center">(criado por Euclides cerca de 300 A.C.)</h3>
+<h4 align="center">(Criado por Euclides cerca de 300 A.C.)</h3>
 
 ## Afirmação principal:
 - se a >= b, então:
