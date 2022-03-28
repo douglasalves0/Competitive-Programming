@@ -2,7 +2,7 @@
 using namespace std;
 
 //esta versão do algoritmo estendido de euclides sempre
-//retorna a resposta com |X| + |Y| mínimo tal que X <= Y
+//retorna a resposta com |X| + |Y| mínimo
 
 int gcd(int a, int b, int * x, int * y){
 	if(b == 0){
