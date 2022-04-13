@@ -1,6 +1,6 @@
 # Chicken McNugget Theorem
 
-This markdown only serves to purpose of explain how chicken mcnugget theorem works, and to give a better explain of how to solve "get ac in one go" problem.
+This markdown only serves to purpose of explain how chicken mcnugget theorem works, and to give a better explain of how to solve ["get ac in one go"](https://www.codechef.com/problems/COPR16G "link to problem") problem.
 
 1. [Introduction](#introduction)
     - [Description of the problem](#description-of-the-problem)
