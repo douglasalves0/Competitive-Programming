@@ -11,10 +11,10 @@ int main(){
         cin >> a[i];
     }
 
-    int f[v+1][n+1];
+    int f[v+1][n];
 
     for(int i=0;i<=v;i++){
-        for(int j=0;j<=n;j++){
+        for(int j=0;j<n;j++){
             if(i == 0){
                 f[i][j] = 1;
                 continue;
@@ -25,7 +25,7 @@ int main(){
         }
     }
 
-    cout << f[v][n] << endl;
+    cout << f[v][n-1] << endl;
 
     return 0;
 }
