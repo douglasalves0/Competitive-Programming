@@ -10,7 +10,7 @@ void add(int v, int i){
     } 
 }
 
-int sum(int i){
+int query(int i){
     int answer = 0;
     for(;i>0;i=i&(i-1)) answer += BIT[i]; 
     return answer;
@@ -27,7 +27,7 @@ int main(){
         add(a[i],i);
     }
     
-    cout << "1-indexed fenwick tree\nTREE = [ ";
+    cout << "1-indexed fenwick tree 1d\nTREE = [ ";
     for(int i=1;i<=n;i++){
         cout << BIT[i] << " ";
     }
